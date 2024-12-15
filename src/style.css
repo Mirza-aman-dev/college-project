@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 50%;
+    height: 60%;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #00a6ff ;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    width: 70%;
+    height: 15%;
+    margin-top: 20px;
+    border: .5px solid #000;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.btn{
+    margin-top: 30px;
+    height: 15%;
+    width: 20%;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    background: #fff;
+    font-weight: 600;
+}
+
+.mainTitle{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navSignup{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00a6ff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.selectionBoxContainer{
+    height: 70%;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectBox{
+    background: rgb(255, 220, 19);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    color: #000000;
+    font-size: 20px;
+}
+
+#classSelect{
+    background: #000000;
+    height: 45px;
+    width: 40%;
+    font-size: 18px;
+    color: white;
+}
+
+.button{
+    height: 55px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 0, 0);
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background: #fff93c;
+}
+
+.chatScreenContainer{
+    background: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer{
+    /* background: yellow; */
+    height: 100%;
+    width: 50%;
+}
+
+.chatContainer{
+    height: 93%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer{
+    background: #464444;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.promptBox{
+    width: 100%;
+    height: 90%;
+    background: #464444;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.promptBox:focus{
+    border: none;
+    outline: none;
+}
+
+.promptButton{
+    background: #fff;
+    border: 0.5px solid #000;
+    height: 40px;
+    width: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.resultContainer{
+    height: 100%;
+    padding-top: 40px;
+    width: 95%;
+}
+
+#result{
+    color: black;
+    text-align: left;
+    line-height: 2;
+    word-spacing: 4px;
+}
+
+#key{
+    color: red;
+    font-weight: 600;
+}
+
+.sixtyfour-convergence {
+    font-family: 'Sixtyfour Convergence', sans-serif;
+    font-optical-sizing: auto; /* Automatically adjust optical sizing if applicable */
+    font-weight: 400; /* Regular weight */
+    font-style: normal; /* Normal style */
+}
+  
+.rubik-m {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+}
+
+#hrr{
+    margin-top: 20px;
+}
